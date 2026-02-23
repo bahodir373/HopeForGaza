@@ -130,7 +130,7 @@ export default function App() {
 
   useEffect(() => {
     const timer = setInterval(
-      () => setCurrentSlide((p) => (p + 1) % carouselImages.length),
+      () => setCurrentSlide((p) => (p + 1) % 3),
       3800
     );
     return () => clearInterval(timer);
