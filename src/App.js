@@ -352,7 +352,7 @@ export default function App() {
               ) : (
                 <>
                   <span className="funding-amount">{collected.toLocaleString("uz-UZ")}</span>
-                  <span className="funding-currency">so'm</span>
+                  <span className="funding-currency">USD</span>
                 </>
               )}
             </motion.div>
