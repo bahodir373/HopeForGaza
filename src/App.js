@@ -110,9 +110,6 @@ export default function App() {
     transition: { delay: 0.15 * i, duration: 0.6, ease: [0.22, 1, 0.36, 1] },
   });
 
-  const formatSum = (n) =>
-    n.toLocaleString("uz-UZ") + " so'm";
-
   return (
     <>
       <style>{`
